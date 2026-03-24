@@ -1,0 +1,25 @@
+@url = http://localhost:3000/generos
+
+GET{{url}}
+
+###
+
+POST{{url}}
+Content-Type: application/json
+
+{
+    "nome": "Aventura"
+}
+
+###
+PUT {{url}}/1
+Content-Type: application/json
+
+{
+    "nome" : "Fantasia"
+}
+
+###
+DELETE {{url}}/2
+Content-Type: application/json
+

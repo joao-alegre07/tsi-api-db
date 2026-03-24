@@ -1,0 +1,32 @@
+{
+  "name": "tsi-api-db",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "ts-node src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joao-alegre07/tsi-api-db.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joao-alegre07/tsi-api-db/issues"
+  },
+  "homepage": "https://github.com/joao-alegre07/tsi-api-db#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/sqlite3": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "sqlite3": "^6.0.1"
+  }
+}

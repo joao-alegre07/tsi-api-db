@@ -20,4 +20,12 @@ db.serialize(() => {
             nome TEXT NOT NULL    
         )    
     `);
+
+    db.run(`
+        CREATE TABLE IF NOT EXISTS livros(
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        titulo TEXT NOT NULL,
+        autores TEXT NOT NULL
+        )
+    `)
 });
